@@ -264,7 +264,7 @@ function generate_config() {
 function generate_configmaps() {
     ### ConfigMaps
     echo "Deleting configmaps"
-    oc delete configmap -l logging-infra=support
+    #oc delete configmap -l logging-infra=support
 
     echo "Creating configmaps"
 
